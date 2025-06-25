@@ -67,6 +67,24 @@
       </div>
     </div>
   </div>
+  <div id="combinedEquationDisplay" class="equation-box" style="width: 100%; max-width: 900px; margin-top: 20px;">
+  \[
+  \text{This is an example of the following theorem from the upcoming paper ``Webification of plane partitions" (2025+), authors: Ashleigh Adams and Jessica Striker. First we give a definition: 
+    Let $\mathcal{L}_r$ denote the set of lattice words of $r$-row tableaux and let $\omega$ be a lattice word of the fundamental domain of the web in bijection with a plane partition $p\in\tsscpp(4d,4d,4d).$ Thus $\omega = \omega_1\cdots\omega_{6d-2}.$ Let $\gamma$ act on the letter $\omega_j$ by $\omega_j\mapsto\barone$ if $\omega_j$ is negative and odd; $\omega_j\mapsto\bartwo$ if $\omega_j$ is negative and even; $\omega_j\mapsto 1$ if $\omega_j$ is positive and odd; and $\omega_j\mapsto 2$ if $\omega_j$ is positive and even.
+
+Then we define the map 
+\[
+\Phi_k:\mathcal{L}_4\to\mathcal{L}_2,
+\]
+\[
+\Phi_k(\omega) = 
+\gamma\left(\prod_{\ell = 0}^{d-1+k}\omega_{((d+2\ell)-k\mod 6d-2)}\right)
+\cdot
+\gamma\left(\prod_{\ell = 1}^{3(d-1)}\omega_{(3d+\ell-1)-k\mod 6d-2)}\right).
+\]
+    }
+  \]
+  </div>
 
   <script>
     const bigCanvas = document.getElementById("bigWheel");
